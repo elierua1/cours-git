@@ -1,1 +1,33 @@
 Presentation rapide de Git
+
+Si Git était une application de photographie, ce serait un album photo intelligent qui se souvient de chaque retouche effectuée. Voici les termes indispensables à connaître :
+
+📁 Le Repo (ou Repository)
+C'est tout simplement le dossier de ton projet. Mais c'est un dossier "intelligent" : il contient tous tes fichiers, ainsi que toute l'histoire de leurs modifications depuis le premier jour.
+
+Dépôt Local : Sur ton ordinateur.
+
+Dépôt Distant : Sur internet (comme GitHub ou GitLab) pour partager ton travail.
+
+📸 Le Commit
+Imagine que tu prends une photo de ton projet à un instant T. Lorsque tu as fini une petite tâche (par exemple, ajouter un bouton sur une page), tu fais un "commit". Git enregistre l'état exact de tes fichiers. Si tu fais une bêtise plus tard, tu pourras toujours revenir à cette "photo" précise.
+
+🌲 La Branch (Branche)
+C'est une ligne de temps parallèle. Par défaut, tu travailles sur la branche principale (souvent appelée main). Si tu veux tester une idée folle sans casser ce qui marche déjà, tu crées une nouvelle branche. C’est comme si tu créais un univers parallèle pour ton code.
+
+🤝 Le Merge (Fusion)
+C’est l’action de réunir deux branches. Une fois que tu as terminé ton test dans ta branche parallèle et que tout fonctionne, tu "merges" tes modifications dans la branche principale. Git s'occupe de mélanger les deux versions proprement.
+
+🚀 Le Push & Pull
+Push (Pousser) : Tu envoies tes commits de ton ordinateur vers le serveur (GitHub) pour que les autres y aient accès.
+
+Pull (Tirer) : Tu récupères les nouveautés que tes collègues ont envoyées sur le serveur pour mettre à jour ton dossier local.
+
+📝 En résumé, ton cycle de travail ressemble à ça :
+Tu travailles sur tes fichiers.
+
+Tu prépares tes changements (Add).
+
+Tu prends la photo de ton travail (Commit).
+
+Tu partages ta photo avec l'équipe (Push).
