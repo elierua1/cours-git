@@ -1,1 +1,42 @@
 Cheat Sheet GitHub Desktop
+
+1. Préparer le terrain (Initialiser)
+Cloner un projet : File > Clone Repository. C'est ici que tu récupères un projet existant sur GitHub pour le mettre sur ton ordinateur.
+
+Créer un nouveau projet : File > New Repository. Pour démarrer de zéro.
+
+Ajouter un projet existant : File > Add Local Repository si ton dossier est déjà sur ton PC mais pas encore suivi par Git.
+
+2. Le cycle de travail quotidien
+C'est ici que tu passeras 90 % de ton temps.
+
+Sélectionner les changements : Dans l'onglet Changes (à gauche), coche uniquement les fichiers que tu veux sauvegarder ensemble.
+
+Le Commit : En bas à gauche, remplis le champ "Summary" (ex: "Ajout du logo"). Clique sur le bouton bleu Commit to main.
+
+Astuce : Si tu cliques sur un fichier, GitHub Desktop te montre en vert ce qui a été ajouté et en rouge ce qui a été supprimé.
+
+Le Push : Une fois le commit fait, clique sur Push origin en haut pour envoyer tes modifications sur internet.
+
+Le Pull : Avant de commencer à travailler, clique sur Fetch origin (puis Pull) pour récupérer le travail de tes collègues.
+
+3. Gérer les branches (Le mode "Safe")
+Créer une branche : Clique sur le bouton Current Branch en haut au milieu > New Branch.
+
+Changer de branche : Il suffit de cliquer sur le nom d'une autre branche dans la liste. GitHub Desktop change tes fichiers automatiquement sur ton PC.
+
+Fusionner (Merge) : 1. Va sur ta branche principale (main). 2. Menu Branch > Merge into current branch. 3. Choisis la branche que tu veux ramener.
+
+4. Les petits sauveteurs (En cas d'erreur)
+Undo : Juste après un commit, un bouton "Undo" apparaît en bas à gauche. Pratique si tu as oublié un fichier !
+
+Discard Changes : Clic droit sur un fichier modifié > Discard Changes. Cela annule tes modifications actuelles et remet le fichier comme il était lors du dernier commit.
+
+Stash : Si tu dois changer de branche mais que ton travail n'est pas fini, GitHub Desktop te proposera de "Stasher" (mettre de côté) tes modifications pour les retrouver plus tard.
+
+3 Règles d'or sur GitHub Desktop
+Fetch souvent : Vérifie régulièrement si le bouton "Fetch" indique des changements à télécharger.
+
+Petits Commits : Il vaut mieux faire 10 petits commits clairs qu'un énorme commit nommé "Modifications".
+
+Regarde la diff : Avant de commit, relis tes changements dans la fenêtre de droite pour éviter d'envoyer un "console.log" ou un commentaire oublié.
