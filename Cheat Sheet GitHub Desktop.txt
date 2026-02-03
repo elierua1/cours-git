@@ -40,3 +40,7 @@ Fetch souvent : Vérifie régulièrement si le bouton "Fetch" indique des change
 Petits Commits : Il vaut mieux faire 10 petits commits clairs qu'un énorme commit nommé "Modifications".
 
 Regarde la diff : Avant de commit, relis tes changements dans la fenêtre de droite pour éviter d'envoyer un "console.log" ou un commentaire oublié.
+
+
+
+Contact si besoin : Elie Roukia
