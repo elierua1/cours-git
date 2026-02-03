@@ -43,4 +43,5 @@ Regarde la diff : Avant de commit, relis tes changements dans la fenêtre de dro
 
 
 
-Contact si besoin : Elie Roukia
+Contact si besoin : 
+Elie Roukia Teacher Data Analytics Le Wagon 
